@@ -293,7 +293,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3938723, y: 2.167879, z: -10}
+  m_LocalPosition: {x: -3.3938723, y: 2.057879, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -398,7 +398,7 @@ Transform:
   m_GameObject: {fileID: 995041030}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3938723, y: 2.167879, z: -10}
+  m_LocalPosition: {x: -3.3938723, y: 2.057879, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -533,6 +533,7 @@ GameObject:
   - component: {fileID: 1140238308}
   - component: {fileID: 1140238312}
   - component: {fileID: 1140238313}
+  - component: {fileID: 1140238314}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -553,8 +554,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDrag: 0.5
+  m_AngularDrag: 15
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -576,7 +577,7 @@ Transform:
   m_GameObject: {fileID: 1140238307}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.14, y: 1.1, z: 0}
+  m_LocalPosition: {x: -8.14, y: 0.99, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -654,6 +655,19 @@ CircleCollider2D:
   m_Offset: {x: 0.67, y: 0.7}
   serializedVersion: 2
   m_Radius: 0.3
+--- !u!114 &1140238314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140238307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef3cfeff011eaa4b9cfc7a2cab2c58e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  torqueAmount: 10
 --- !u!1 &1583763763
 GameObject:
   m_ObjectHideFlags: 0
@@ -2483,7 +2497,7 @@ SurfaceEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Speed: 10
+  m_Speed: 20
   m_SpeedVariation: 0
   m_ForceScale: 0.1
   m_UseContactForce: 0
