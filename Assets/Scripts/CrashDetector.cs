@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CrashDetector : MonoBehaviour
 {
@@ -6,7 +7,7 @@ public class CrashDetector : MonoBehaviour
     {
         if (collision.tag == "Ground")
         {
-            Debug.Log("Crash detected!");
+            SceneManager.LoadScene(0);
         }
     }
 }
