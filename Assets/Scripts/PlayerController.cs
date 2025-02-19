@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb2d;
     SurfaceEffector2D surfaceEffector2D;
 
+    private bool canMove = true;
+
     private void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
@@ -18,8 +20,16 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        RotatePlayer();
-        RespondToBoost();
+        if (canMove)
+        {
+            RotatePlayer();
+            RespondToBoost();
+        }
+    }
+
+    public void DisableControls()
+    {
+        canMove = false;
     }
 
     private void RotatePlayer()
