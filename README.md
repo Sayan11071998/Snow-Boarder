@@ -1,4 +1,4 @@
-# ***🏂 Snow-Boarder – A Thrilling 2D Snowboarding Adventure! 🎮***
+# ***🏂 Snow-Boarder🎮***
 
 ## *🌟 Highlights:*
 - ***🏂 Smooth Snowboarder Controls:*** Implemented precise movement using Rigidbody2D and Torque for realistic rotation and jumping mechanics.
@@ -14,3 +14,9 @@
 - Mastered advanced Unity features like EdgeCollider, Surface Effector, and Cinemachine.
 - Gained expertise in integrating multimedia (particles and audio) to boost immersion.
 - Deepened my scripting knowledge with collision detection, game state management, and physics manipulation.
+- 
+![Image](https://github.com/user-attachments/assets/c3699abe-5ef5-40ad-af84-2f3eefbc70aa)
+
+![Image](https://github.com/user-attachments/assets/1f89001f-7abd-49bc-a625-8f277d25311f)
+
+![Image](https://github.com/user-attachments/assets/6dad6a77-943d-4ef6-a943-ec6451402e7f)
