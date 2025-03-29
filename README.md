@@ -14,7 +14,7 @@
 - Mastered advanced Unity features like EdgeCollider, Surface Effector, and Cinemachine.
 - Gained expertise in integrating multimedia (particles and audio) to boost immersion.
 - Deepened my scripting knowledge with collision detection, game state management, and physics manipulation.
-- 
+
 ![Image](https://github.com/user-attachments/assets/c3699abe-5ef5-40ad-af84-2f3eefbc70aa)
 
 ![Image](https://github.com/user-attachments/assets/1f89001f-7abd-49bc-a625-8f277d25311f)
