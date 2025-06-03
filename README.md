@@ -1,19 +1,33 @@
-# ***🏂 Snow-Boarder🎮***
+# 🏂 Snow-Boarder 🎮
 
-## *🌟 Highlights:*
-- ***🏂 Smooth Snowboarder Controls:*** Implemented precise movement using Rigidbody2D and Torque for realistic rotation and jumping mechanics.
-- ***❄️ Dynamic Snow Environment:*** Designed with EdgeCollider for smooth sliding and Surface Effector to simulate snow friction.
-- ***🚧 Obstacle Avoidance:*** Navigate challenging slopes, dodging obstacles to survive and rack up the highest score!
-- *** Handcrafted Slopes:*** Crafted engaging tracks with strategically placed obstacles to test your skills.
-- ***🎥 Dynamic Camera System:*** Integrated Cinemachine Follow Camera for a seamless and immersive view.
-- ***✨ Visual & Audio Effects:*** Enhanced with Particle Effects (snow spray) and Sound Effects (jumps, collisions) for a polished experience.
+## Highlights
 
-## *✨ Key Learnings:*
-- Strengthened my Unity & C# skills, focusing on 2D physics and player control mechanics.
-- Improved level design techniques for creating dynamic, engaging challenges.
-- Mastered advanced Unity features like EdgeCollider, Surface Effector, and Cinemachine.
-- Gained expertise in integrating multimedia (particles and audio) to boost immersion.
-- Deepened my scripting knowledge with collision detection, game state management, and physics manipulation.
+- **Smooth Snowboarder Controls**  
+  Implemented precise movement using Rigidbody2D and Torque to create realistic rotation and jumping mechanics.
+
+- **Dynamic Snow Environment**  
+  Built with EdgeCollider2D and Surface Effector2D to simulate smooth sliding and realistic snow friction.
+
+- **Obstacle Avoidance**  
+  Designed challenging slopes where players must dodge obstacles to survive and maximize their score.
+
+- **Handcrafted Slopes**  
+  Created engaging tracks with thoughtfully placed obstacles to continuously test player skills.
+
+- **Dynamic Camera System**  
+  Used Cinemachine’s Follow Camera for a seamless, immersive player experience.
+
+- **Visual & Audio Effects**  
+  Added particle effects (snow spray) and sound effects (jumps, landings, collisions) to enhance gameplay feel.
+
+## Key Learnings
+
+- Strengthened Unity and C# skills with a focus on 2D physics and player control mechanics.
+- Improved level design techniques for building dynamic, engaging environments.
+- Mastered advanced Unity components like EdgeCollider2D, Surface Effector2D, and Cinemachine.
+- Gained experience integrating particle systems and audio for greater player immersion.
+- Deepened understanding of scripting for collision detection, physics interaction, and game state control.
+
 
 ![Image](https://github.com/user-attachments/assets/c3699abe-5ef5-40ad-af84-2f3eefbc70aa)
 
