@@ -28,6 +28,11 @@
 - Gained experience integrating particle systems and audio for greater player immersion.
 - Deepened understanding of scripting for collision detection, physics interaction, and game state control.
 
+## Play Link
+https://sayannandi.itch.io/snow-boarder
+
+[![Watch the video](https://img.youtube.com/vi/ws0_fyFv75g/maxresdefault.jpg)](https://youtu.be/ws0_fyFv75g)
+### [Gameplay Video](https://youtu.be/ws0_fyFv75g)
 
 ![Image](https://github.com/user-attachments/assets/c3699abe-5ef5-40ad-af84-2f3eefbc70aa)
 
